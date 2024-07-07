@@ -71,7 +71,9 @@
         </div>
       </div>
     </div>
-    <a href="/" class="block text-xs text-right text-slate-400 hover:underline">About us</a>
+    <RouterLink to="/" class="block text-xs text-right text-slate-400 hover:underline">
+      About us
+    </RouterLink>
   </div>
 </template>
 <script setup></script>
